@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module version="1.0">
+	<name>S7Ncms Weblog</name>
+	<admin_menu_title>Blog</admin_menu_title>
+	<uri>blog</uri>
+	<description>Simple weblog module</description>
+	<tables>
+		<name>blog_posts</name>
+		<name>blog_comments</name>
+	</tables>
+	<author>Eduard Baun</author>
+	<email>edy@edy-b.de</email>
+	<homepage>http://www.s7n.de</homepage>
+	<version>0.1</version>
+	<config>
+		<key>comment_status</key>
+		<value>open</value>
+	</config>
+</module>
